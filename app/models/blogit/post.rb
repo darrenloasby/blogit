@@ -4,6 +4,8 @@ module Blogit
     require "kaminari"
 
     self.table_name = "blog_posts"
+    
+    #attr_accessible :title, :body, :tag_list, :blogger_type, :blogger_id
 
     # ===============
     # = Validations =
