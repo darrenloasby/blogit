@@ -5,7 +5,7 @@ module Blogit
 
     self.table_name = "blog_posts"
     
-    #attr_accessible :title, :body, :tag_list, :blogger_type, :blogger_id
+    attr_accessible :title, :body, :tag_list, :blogger_type, :blogger_id
 
     # ===============
     # = Validations =
